@@ -3,7 +3,11 @@
     margin: 0;
 }
 
-.container{
+html{
+    font-size: 10px;
+}
+
+/* .container{
     display: flex;
 }
 .man{
@@ -31,5 +35,46 @@
         width: 100%;
         margin-bottom: 20px;
         height: 30vh;
+    }
+} */
+
+/* image practice. */
+
+.big-food{
+    display: flex;
+    border: 1px solid black;
+}
+
+.big-title{
+    /* overflow: hidden; */
+    width: 70%;
+    /* font-size: 2em; */
+    /* font-size: 2rem; */
+    
+}
+.big-title h1{
+ font-size: 6rem;
+}
+.big-title button{
+
+}
+
+.big-food>img{
+    width: 30%;
+}
+
+
+@media screen and (max-width:500px){
+   
+    .big-food{
+        display: block;
+    }
+   
+    .big-title{
+        width: 100%;
+    }
+
+    .big-food img{
+        width: 100%;
     }
 }
